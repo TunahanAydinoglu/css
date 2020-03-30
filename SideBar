@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>başlık</title>
+        
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <style> 
+        body{
+    margin: 0; padding: 0; height: 100vh;
+    background: lightcyan;
+    overflow: hidden; display: flex;
+}
+nav{
+    display: flex;
+    align-items: center; justify-content: center;
+}
+nav ul{
+    list-style-type: none; padding: 0;
+    background: transparent; height: 100vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+nav ul li{
+    font-size: 30px; background: transparent;
+    box-shadow: 0 0 10px #333;
+    letter-spacing: 0.1rem;
+    width: 5em; height: 1.5em; line-height: 1.5em;
+    position: relative; overflow: hidden;
+    margin: 0.5em; margin-top: 45px; cursor: pointer;
+    border-radius: 10px; padding-left: 1px;
+}
+nav ul li span{
+    color: white; mix-blend-mode: difference;
+}
+nav ul li::before {
+    content: "";
+    position: absolute; width: 1.5em; height: inherit;
+    background: rgba(0, 0, 0, 0.2);
+    top:0; left: -0.75em; transition: 0.5s ease-out;
+}
+nav ul li:hover::before {width: 6em;}
+        </style>
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Products</li>
+                <li>Services</li>
+                <li>Contact</li>
+                <li>About</li>
+                <li>Gallery</li>
+            </ul>
+        </nav>
+    </body>
+    <script src="https://kit.fontawesome.com/98282bdaf4.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+</html>
