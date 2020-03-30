@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Salma Metin</title>
+        
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/98282bdaf4.js" crossorigin="anonymous"></script>
+        
+        <style>
+.{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center; align-items: center;
+    min-height: 100vh;
+    background: #111;
+}
+
+ul{
+    position: relative;
+    margin: 0; padding: 0;
+    display: flex;
+    justify-content: center; align-items: center;
+    flex-wrap: wrap;
+    border: 3px solid #000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden; width: 240px;
+    background: linear-gradient(0deg,#000000, #0c0c0c);
+}
+
+ul li{
+    position: relative;
+    list-style: none;
+    text-align: center; margin: 15px;
+}
+
+ul li label{ position: relative;}
+ul li label input[type="checkbox"]{
+    position: absolute;
+    opacity: 0; cursor: pointer;
+}
+
+
+ul li label .icon-box {
+    width: 60px; height: 60px;
+    background: #101010;
+    display: flex;
+    justify-content: center; align-items: center;
+    border: 3px solid #000;
+    transition: 0.5s;
+    border-radius: 10px; cursor: pointer;
+}
+
+.icon-box .far,
+.fas,
+.fab {
+    font-size: 25px; color: #222;
+    transition: 0.5s;
+}
+
+ul li label input[type="checkbox"]:checked ~.icon-box{
+    background: #000;
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px rgba(33, 156, 243, 0.5),
+                0 0 10px rgba(33, 156, 243, 0.5),
+                0 0 10px rgba(33, 156, 243, 0.5),
+                inset 0 0 10px rgba(33, 156, 243, 1);
+}
+
+ul li label input[type="checkbox"]:checked ~ .icon-box .far,
+ul li label input[type="checkbox"]:checked ~ .icon-box .fas,
+ul li label input[type="checkbox"]:checked ~ .icon-box .fab,{
+    color: #fff;
+    text-shadow: 0 0 10px rgba(33, 156, 243, 1),
+                 0 0 10px rgba(33, 156, 243, 1);
+}
+        </style>
+    </head>
+
+    <body>
+        <ul>
+            <li>
+                <label>
+                    <input type="checkbox" />
+                    <div class="icon-box">
+                        <i class="fas fa-phone" aria-hidden="true"></i>
+                    </div>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" />
+                    <div class="icon-box">
+                        <i class="fas fa-moon" aria-hidden="true"></i>
+                    </div>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" />
+                    <div class="icon-box">
+                        <i class="fas fa-phone"></i>
+                        <i class="fas fa-phone" aria-hidden="true"></i>
+                    </div>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" />
+                    <div class="icon-box">
+                        <i class="fas fa-phone" aria-hidden="true"></i>
+                    </div>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" />
+                    <div class="icon-box">
+                        <i class="fas fa-moon" aria-hidden="true"></i>
+                    </div>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" />
+                    <div class="icon-box">
+                        <i class="fas fa-phone" aria-hidden="true"></i>
+                    </div>
+                </label>
+            </li>
+        </ul>
+    </body>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+</html>
