@@ -122,7 +122,7 @@ ul li:hover span{
     <body>
         <h2 id="info">Hover picture</h2>
         <div class="image-card">
-            <img src="Oguz.jpg" alt=""> <!-- w:300px h:400px -->
+            <img src="Tuna.jpg" alt=""> <!-- w:300px h:400px -->
             <h2>Oğuz Atay</h2>
             <ul>
                 <li><i class="fab fa-facebook"><span>Facebook</span></i></li>
